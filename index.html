@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Veb-Sayt Navigatsiyasi</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Logo</div>
+        <ul class="nav-links">
+            <li><a href="#">Bosh Sahifa</a></li>
+            <li><a href="#">Xizmatlar</a></li>
+            <li><a href="#">Biz haqimizda</a></li>
+            <li><a href="login.html">Ro'yxatdan O'tish</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" placeholder="Qidirish...">
+            <button type="button">Izlash</button>
+        </div>
+    </nav>
+
+    <div class="sexion">
+        <!-- Saytingizning asosiy kontenti shu joyda bo'ladi -->
+            <h2>Turli Malumotlar va Surat Qo'shish</h2>
+            <div class="content">
+                <p id="info"></p>
+                <input type="text" id="malumotInput" placeholder="Malumot kiriting">
+                <input type="file" id="suratInput">
+                <button onclick="malumotniKorsat()">Ko'rsatish</button>
+            </div>
+        
+    </div>
+
+        <script src="script.js"></script>
+    
+
+</body>
+
+</html>
